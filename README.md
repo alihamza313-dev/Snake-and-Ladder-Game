@@ -74,3 +74,17 @@ This project clearly demonstrates the use of core **Object-Oriented Programming 
 
 ---
 
+File Handling in the Game
+
+Description:
+This game uses file handling to save the results of each match automatically.
+How it Works:
+After a game ends, the program writes the results to a file called Game_history.txt.
+Implemented using ofstream in C++.
+The file stores the following information:
+Winning position
+Player names
+Winner and loser
+Snake and ladder positions
+
+
