@@ -5,6 +5,7 @@
 #include <string>
 #include<conio.h>
 #include<thread>
+#include <windows.h>
 #include<chrono>
 
 using namespace std;
@@ -205,7 +206,7 @@ public:
         {
 
             cout << BLUE << "Computer rolled the dice!..." << RESET << endl;
-            this_thread::sleep_for(chrono::milliseconds(1000));
+            Sleep(1000);
         }
         else
         {
